@@ -8,14 +8,16 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     
-    <body class="varieties-page">
+    <body class="">
+        <button onclick="topFunction()" id="back-to-top" title="Go to top"><div class="up-arrow"></div>BACK TO TOP</button>
+
         <nav>
             <ul class="nav-tag">
                 <li><a class="nav-hover" href="ui-ux.html">UI/UX</a></li>
                 <li><a class="nav-hover active" href="motion.html">MOTION</a></li>
                 <li class="home-button">
                     <a href="index.html">
-                        <img class="logo-img" src="image/logo.png"></a><br>TSAI FU CHUNG
+                        <img class="logo-img" src="image/logo.png"></a><br><h4 id="small-hide">TSAI FU CHUNG</h4>
                 </li>
                 <li><a class="nav-hover" href="illustration.html">ILLUSTRATION</a></li>
                 <li><a class="nav-hover" href="about.html">ABOUT</a></li>
@@ -28,6 +30,74 @@
             </div>
         </section>
 
+        <main class="text-content">
+            <div class="title">
+                <h1>CUTE AVATAR MAKER</h1>
+                <ul class="tags">
+                    <li>Research</li>
+                    <li>CSS/HTML</li>
+                    <li>Illustration</li>
+                    <li>GitHub</li>
+                    <li>Illustrator</li>
+                </ul> 
+                <p>CUTE AVATAR MAKER is a website that allows people to create their own avatar images with their desired combination of appearance and colors.</p>
+            </div>
+            <div>
+                <h2>GOAL</h2>
+                <p>CUTE AVATAR MAKER is a self-coded project that involved the use of HTML, CSS, and Java Scripts. The goal of CUTE AVATAR MAKER is to be a tool for users to investigate their perception of cuteness by manipulating various options and creating what they think is cute.
+                </p>
+            </div>
+            <div>
+                <h1>FINAL SCREEN</h1><br>
+                <img src="image/work-preview/cute-avater-maker.gif">
+            </div>
+            <button class="button-to-links"><a href="https://tsai-fu.github.io/cute-avatar-maker/">VISIT THE SITE</a></button>
+            <div>
+                <h2>WHY THIS PROJECT</h2>
+                <p>The term cute, or cuteness, something that appears around us frequently, is the main inspiration for the creation of this project. Despite the fact that I had used and felt this term frequently in my daily life, one day I shockedly realized that I couldn't answer the question: What is "cute"? While many of us have thought something was cute before, it is less likely that we have learned or thought deeply about the term cuteness beyond having a vague idea of what things are "cute." With the desire to learn and explore the term cuteness and how others perceive it, the CUTE AVATAR MAKER has been created.
+                </p>
+            </div>
+            <div>
+                <h2>RESEARCH BRIEF</h2>
+                <p>My research on cuteness includes everything from the term's "official" definition to its etymology, the scientific factors that make something cute, the reasons behind the factors, the impacts, and where the impact occurs, etc. In addition, I conducted a survey to collect data on how people perceive cuteness. With questions about how people define cuteness, what they think is cute, the factors that make them think things cute, the importance of cuteness, and how people feel about it, etc.
+                </p>
+                <p>From my research, I have learned something called “baby schema,” a set of infantile physical features that have been perceived as cute that was put together by the ethologist Konrad Lorenz. The features it included are large head, big eyes, high forehead, chubby cheeks, small nose and mouth, plump body shape, short and thick extremities, and round or soft body features, etc. 
+                </p>
+                <p>And from the survey responses I received, I have also learned that when people seek cute things, they are looking for an aura or feeling that is soft, bright, and friendly. And light pastel colors like pink, peach, and light blue have been the colors that people associate with cuteness the most.</p>
+            </div>
+            <button class="button-to-links"><a href="https://drive.google.com/file/d/13c2vEa4sT74EgOuoUTPElldWBCb9zpMu/view">VIEW FULL RESEARCH</a></button>
+
+        </main>
+
+        <footer>
+            <div>
+                <h3 style="color:#cc3628">CONTACT ME</h3>
+                <p class="email">tsaifu.c<span style="color:#cc3628">@</span>gmail.com</p>
+            </div>
+        </footer>
+
+
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("back-to-top");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+        </script>
 
 </body>
 </html>
