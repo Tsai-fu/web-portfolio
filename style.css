@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Glory:ital,wght@0,100..800;1,100..800&display=swap')
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Glory:ital,wght@0,100..800;1,100..800&display=swap') */
+
 /* <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Glory:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet"> */
-
 /* font-family: 'Fredoka One', cursive;
 
 red: #cc3628
@@ -19,11 +19,34 @@ WHITE: #FDF8F2
 
 */
 
-html,
+/* html,
 body {
     height: 100%;
     width: 100%;
-}
+} */
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800 */
+
+/* .glory-<uniquifier> {
+  font-family: "Glory", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+/* .cabin-<uniquifier> {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
 
 body {
     margin: 0;
@@ -103,7 +126,6 @@ img {
     display: flex;
     list-style: none;
 }
-
 
 /* .tags li {
     padding: 12px 6px;
@@ -440,5 +462,12 @@ main{
         flex-wrap: wrap;
         padding: 24px 0px;
     }
+
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 414px) {
+
 
 }
