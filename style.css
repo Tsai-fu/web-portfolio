@@ -75,7 +75,7 @@ li, h4 {
     /* line-height: 130%; */
 }
 
-.email p{
+.email p, .email{
     font-family: 'Cabin';
     font-weight: 400;
     font-size: 16px;
@@ -233,7 +233,8 @@ nav {
 }
 
 .nav-tag li:nth-child(2) {
-    padding-left: 42px;
+    padding: 0px 21px;
+    /* padding-left: 2.8vw; */
     }
 
 nav a {
@@ -242,8 +243,15 @@ nav a {
     /* border: 1px solid red; */
 }
 
+.home-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border: 1px solid red; */
+}
+
 .logo-img {
-    padding-left: 24px;
     width: 55px;
     height: auto;
     /* border: 1px solid red; */
@@ -426,14 +434,6 @@ main{
         margin: 0;
     }
 
-    .nav-tag li:nth-child(2) {
-        padding-left: 16px;
-    }
-    
-    /* .logo-img {
-        padding-left: 16px;
-    } */
-    
     .banner{
         padding-top: 90px;
     }
@@ -473,15 +473,11 @@ main{
     }
     
     .nav-tag li:nth-child(2) {
-        padding-left: 0px;
+        padding: 0px;
     }
 
     .nav-tag li:nth-child(4) {
-        padding-right: 12px;
-    }
-    
-    .logo-img {
-        padding-left: 0px;
+        padding: 0px 6px;
     }
     
     .text-content{
