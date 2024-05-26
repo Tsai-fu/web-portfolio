@@ -75,20 +75,26 @@ li, h4 {
     /* line-height: 130%; */
 }
 
-.email p, .email{
-    font-family: 'Cabin';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
+.email {
+    line-height: 180%;
+    color: #000000;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.email:hover{
+    color: #44312f;
+    border-bottom: 3px solid #cc3628;
+    border-radius: 2px;
 }
 
 .vw-h1 {
     font-size: 6.7vw;
 }
 
-strong {
-    font-weight: 700;
+strong{
+    font-size: x-large;
+    font-weight: 500;
 }
 
 img {
@@ -299,6 +305,61 @@ main{
     /* border: 1px solid red; */
 }
 
+
+/* ABOUT PAGE //////////////////////////////////////////////////////////////////////*/
+.about-page{
+    padding-top: 200px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    grid-gap: 5vw;
+
+    /* justify-content: space-around; */
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.self-photo{
+    border-radius: 100%;
+}
+
+#vertical-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid rgb(22, 194, 94); */
+}
+
+#vertical-align p{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.bio{
+    width: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* grid-gap: 24px 0px; */
+    /* position: relative; */
+
+    /* border: 1px solid rgb(179, 106, 212); */
+}
+
+.resume-contact{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    grid-gap: 12px 0px;
+    
+    /* position: absolute;
+    bottom: 0; */
+    /* border: 1px solid rgb(194, 119, 22); */
+}
+
+
+/* WORK LIST (PREVIEW) PAGE //////////////////////////////////////////////////////////////////////*/
 .work-preview {
     display: flex;
     flex-wrap: wrap;
@@ -326,6 +387,8 @@ main{
     height:auto;
 }
 
+
+/* WORK DETAIL PAGE //////////////////////////////////////////////////////////////////////*/
 .banner{
     width: 100%;
     max-height: 400px;
@@ -441,6 +504,26 @@ main{
     main{
         /* flex-direction: column; */
         width: 90%;
+    }
+
+    .about-page{
+        /* grid-gap: 36px; */
+        /* padding-right: 12px; */
+        padding-top: 114px;
+        flex-wrap: wrap;
+        grid-gap: 12px;
+    }
+
+    .self-photo{
+        width: 30%;
+    }
+
+    .bio{
+        width: 300%;}
+
+    .resume-contact{
+        /* justify-content: space-between; */
+        flex-direction: column;
     }
 
     .work-preview {
