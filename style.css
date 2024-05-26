@@ -313,8 +313,6 @@ main{
     align-content: flex-start;
     justify-content: space-evenly;
     grid-gap: 5vw;
-
-    /* justify-content: space-around; */
     /* border: 2px solid rgb(255, 0, 0); */
 }
 
@@ -340,9 +338,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* grid-gap: 24px 0px; */
-    /* position: relative; */
-
     /* border: 1px solid rgb(179, 106, 212); */
 }
 
@@ -352,9 +347,6 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
     grid-gap: 12px 0px;
-    
-    /* position: absolute;
-    bottom: 0; */
     /* border: 1px solid rgb(194, 119, 22); */
 }
 
@@ -507,22 +499,19 @@ main{
     }
 
     .about-page{
-        /* grid-gap: 36px; */
-        /* padding-right: 12px; */
         padding-top: 114px;
         flex-wrap: wrap;
         grid-gap: 12px;
     }
 
     .self-photo{
-        width: 30%;
+        width: 42%;
     }
 
     .bio{
         width: 300%;}
 
     .resume-contact{
-        /* justify-content: space-between; */
         flex-direction: column;
     }
 
