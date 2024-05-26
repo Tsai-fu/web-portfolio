@@ -80,6 +80,7 @@ li, h4 {
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
+    text-decoration: none;
 }
 
 .vw-h1 {
@@ -455,12 +456,12 @@ main{
 /* MOBILE */
 @media screen and (max-width: 414px) {
 
-    #mobile-hide{
+    /* #mobile-hide{
         display: none;
-    }
+    } */
     
     /* IF USE ILLUS instread if ILLUSTRATION */
-    .nav-tag li:nth-child(2) {
+    /* .nav-tag li:nth-child(2) {
         padding-left: 0px;
     }
 
@@ -470,7 +471,7 @@ main{
     
     .logo-img {
         padding-left: 0px;
-    }
+    } */
     
     .text-content{
         padding: 16px 0px;
