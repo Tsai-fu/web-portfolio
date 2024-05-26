@@ -173,6 +173,7 @@ img {
     z-index: 99;
     border: none;
     outline: none;
+    color: #000000;
     background-color: rgba(255, 255, 255, 0);
     /* background-color: #cc3628; */
     /* color: white; */
@@ -333,6 +334,10 @@ main{
     justify-content: center;
 }
 
+.title{
+    text-align: center;
+}
+
 .text-content{
     width: 60%;
     flex-wrap: wrap;
@@ -486,7 +491,7 @@ main{
     
     .line-break{
         /* padding-top: 6px; */
-        margin-bottom: 16px;
+        /* margin-bottom: 16px; */
     }
 
 }
