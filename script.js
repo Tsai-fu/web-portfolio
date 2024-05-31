@@ -21,28 +21,6 @@ function topFunction() {
 }
 
 // ----------------------------------------------------------------------------
-
-// When the user scrolls the page, execute myFunction
-window.onscroll = function () {
-  myFunction2();
-};
-
-// Get the navbar
-var navbar = document.getElementById("nav-bar");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction2() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
-// ----------------------------------------------------------------------------
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -52,9 +30,9 @@ var modalImg = document.getElementById("img01");
 
 document.querySelectorAll(".img-to-modal").forEach((element) => {
   element.addEventListener("click", () => {
-    modalImg.src = this.src;
     modal.style.display = "block";
     // modalImg.src = this.src;
+    modalImg.src = this.src;
   });
 });
 
