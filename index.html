@@ -10,10 +10,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Glory:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 </head>
 
 <body>
-    <nav>
+    <nav id="nav-bar">
+        <div class="nav-tag">
+            <a class="nav-hover" href="ui-ux.html">UI/UX</a>
+            <a class="nav-hover" href="motion.html">MOTION</a>
+            <a class="home-button" href="index.html">
+                <img class="logo-img" src="image/logo.png"><br><h4 id="small-hide">TSAI FU CHUNG</h4></a>
+            <a class="nav-hover" href="illustration.html">ILLUS<span id="mobile-hide">TRATION</span></a>
+            <a class="nav-hover" href="about.html">ABOUT</a>
+        </div>
+    </nav>
+
+    <!-- <nav>
         <ul class="nav-tag">
             <li><a class="nav-hover" href="ui-ux.html">UI/UX</a></li>
             <li><a class="nav-hover" href="motion.html">MOTION</a></li>
@@ -24,7 +36,7 @@
             <li><a class="nav-hover" href="illustration.html">ILLUS<span id="mobile-hide">TRATION</span></a></li>
             <li><a class="nav-hover" href="about.html">ABOUT</a></li>
         </ul>
-    </nav>
+    </nav> -->
 
     <main class="work-display">
         <div class="work-preview">
@@ -64,16 +76,42 @@
             <div>
                 <a href="king.html"><img src="image/work-preview/king.gif"></a>
             </div>
+            <!-- ////////////////////////// -->
             <div>
-                <a href=".html"><img src="image/work-preview/"></a>
+                <a href="hedgehog.html"><img src="image/hedgehogs/6-2.jpg"></a>
             </div>
             <div>
-                <a href=".html"><img src="image/work-preview/"></a>
+                <a href="coockie-bear.html"><img style="object-position: 0% 80%" src="image/cookie-bear/0.jpg"></a>
+            </div>
+            <div>
+                <a href="hedgehog.html"><img src="image/hedgehogs/3-2.jpg"></a>
+            </div>
+            <div>
+                <a href="hedgehog.html"><img src="image/hedgehogs/7.jpg"></a>
+            </div>
+            <div>
+                <a href="hedgehog.html"><img src="image/hedgehogs/5.gif"></a>
+            </div>
+            <div>
+                <a href="sancha.html"><img src="image/sancha/1.png"></a>
+            </div>
+            <div>
+                <a href="hedgehog.html"><img src="image/hedgehogs/4.png"></a>
+            </div>
+            <div>
+                <a href="hedgehog.html"><img src="image/hedgehogs/10.jpeg"></a>
             </div>
             <div>
                 <a href=".html"><img src="image/work-preview/"></a>
             </div>
     </div>
+
+
+    <div id="modal01" onclick="this.style.display='none'">
+                <div>
+                  <img id="full-size-img" style="width:100%">
+                </div>
+            </div>
     </main>
 
     <footer>
@@ -83,6 +121,8 @@
         </div>
     </footer>
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Tsai Fu's Portfolio</title>
+        <link rel="icon" href="image/logo.png">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Glory:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <button onclick="topFunction()" id="back-to-top" title="Go to top"><div class="up-arrow"></div>BACK TO TOP</button>
+
+        <nav id="nav-bar">
+            <div class="nav-tag">
+                <a class="nav-hover" href="ui-ux.html">UI/UX</a>
+                <a class="nav-hover" href="motion.html">MOTION</a>
+                <a class="home-button" href="index.html">
+                    <img class="logo-img" src="image/logo.png"><br><h4 id="small-hide">TSAI FU CHUNG</h4></a>
+                <a class="nav-hover" href="illustration.html">ILLUS<span id="mobile-hide">TRATION</span></a>
+                <a class="nav-hover" href="about.html">ABOUT</a>
+            </div>
+        </nav>
+    
+        <!-- <section class="hedgehog">
+            <div class="banner">
+              <img src="image/banner/cute-avatar-maker.jpg">
+            </div>
+        </section> -->
+       
+        <section class="hedgehog">
+            <div class="banner">
+                <div class="slideshow-images">
+                    <img src="image/hedgehogs/1.jpeg">
+                    <img src="image/hedgehogs/2.jpg">
+                    <img src="image/hedgehogs/3-2.jpg">
+                    <img src="image/hedgehogs/4.png">
+                    <img src="image/hedgehogs/4-2.png">
+                    <img src="image/hedgehogs/5.gif">
+                    <img src="image/hedgehogs/6.jpg">
+                    <img src="image/hedgehogs/6-2.jpg">
+                    <img src="image/hedgehogs/7.jpg">
+                    <img src="image/hedgehogs/8.jpeg">
+                    <img src="image/hedgehogs/9-2.jpg">
+                    <img src="image/hedgehogs/10.jpeg">
+                    <img src="image/hedgehogs/1.jpeg">
+                    <img src="image/hedgehogs/2.jpg">
+                    <img src="image/hedgehogs/3-2.jpg">
+                    <img src="image/hedgehogs/4.png">
+                    <img src="image/hedgehogs/4-2.png">
+                </div>
+             </div>
+        </section>
+
+        <main class="text-content">
+            <div class="title">
+                <h1>WEEKLY HEDGEHOG</h1>
+                <ul class="tags">
+                    <li>Illustration</li>
+                    <li>Style exploration</li>
+                    <li>Procreate</li>
+                    <li>Illustrator</li>
+                </ul> 
+                <p>10 weeks of illustration style exploration with hedgehog as the theme/topic.
+                </p>
+            </div>
+            
+            <div class="work-img">
+                <img class="img-to-modal" src="image/hedgehogs/1.jpeg" onclick="onClick(this)">
+                <img class="img-to-modal" src="image/hedgehogs/2.jpg" onclick="onClick(this)">
+                <img class="img-to-modal" src="image/hedgehogs/3-2.jpg" onclick="onClick(this)">
+                <img class="img-to-modal" src="image/hedgehogs/4.png">
+                <img class="img-to-modal" src="image/hedgehogs/4-2.png">
+                <img class="img-to-modal" src="image/hedgehogs/5.gif">
+                <img class="img-to-modal" src="image/hedgehogs/6.jpg">
+                <img class="img-to-modal" src="image/hedgehogs/6-2.jpg">
+                <img class="img-to-modal" src="image/hedgehogs/7.jpg">
+                <img class="img-to-modal" src="image/hedgehogs/8.jpeg">
+                <img class="img-to-modal" src="image/hedgehogs/9-2.jpg">
+                <img class="img-to-modal" src="image/hedgehogs/10.jpeg">
+            </div>
+            
+            <!-- The Modal -->
+            <div id="myModal" class="modal" onclick="this.style.display='none'">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+
+                <!-- Modal Caption (Image Text) -->
+                <!-- <div id="caption"></div> -->
+            </div>
+
+        </main>
+
+        <footer>
+            <div>
+                <h3 style="color:#cc3628">CONTACT ME</h3>
+                <p><a class="email" href="mailto:tsaifu.c@gmail.com">tsaifu.c<span style="color:#cc3628">@</span>gmail.com</a></p>
+            </div>
+        </footer>
+
+
+        <script src="script.js"></script>
+
+</body>
+</html>
