@@ -32,7 +32,7 @@ document.querySelectorAll(".img-to-modal").forEach((element) => {
   element.addEventListener("click", () => {
     modal.style.display = "block";
     // modalImg.src = this.src;
-    modalImg.src = this.src;
+    modalImg.src = element.src;
   });
 });
 
