@@ -111,18 +111,11 @@ img {
     flex-wrap: wrap;
 }
 
-/* .tags li {
-    padding: 12px 6px;
-    color: white;
-    background-color: #cc3628;
-    border-radius: 6%;
-    margin: 5px 5px 5px 0px; 
-} */
-
 .tags li {
     padding: 12px 6px;
     color: #cc3628;
     border: #cc3628 3px solid;
+    /* background-color: #cc3628; */
     border-radius: 6%;
     margin: 5px 5px 5px 0px; 
 }
@@ -238,16 +231,13 @@ nav {
     padding: 0;
     margin: 0;
     margin-right: 12px;
-    /* margin: 0; */
     /* border: 1px solid rgb(25, 0, 255); */
 }
 
 .nav-tag li{
     width: 108px;
     text-align: center;
-    /* border: 1px solid rgb(255, 136, 0); */
 }
-
 
 .nav-tag li:nth-child(2) {
 /* padding: 0px 22px; */
@@ -295,17 +285,11 @@ footer {
     text-align: center;
     color: #000000;
     /* position: absolute; */
-    bottom: 0;
-
+    bottom: 0px;
     /* width: 100vw; */
-    padding: 20px 50px 20px 50px;
+    padding: 20px 50px;
     /* border-top: 80px solid; */
 }
-
-.right {
-    min-width: 300px;
-}
-
 
 main{
     margin: auto;
@@ -380,7 +364,6 @@ main{
     /* object-position: 0% 80%  */
     /* border: 1px solid rgb(238, 63, 63); */
 }
-
 
 /* WORK DETAIL PAGE //////////////////////////////////////////////////////////////////////*/
 .banner{
@@ -777,10 +760,6 @@ main{
         padding-top: 104px;
         grid-template-columns: auto auto;
     }
-
-    /* .work-preview div {
-        flex: 40%;
-    } */
 
     .banner, .hedgehog .banner{
         max-height: 180px;

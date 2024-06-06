@@ -26,29 +26,8 @@
         </ul>
     </nav>
 
-    <main class="work-display">
+    <main class="ui-ux">
         <div class="work-preview">
-            <div>
-                <a href="vtunes.html"><img src="image/work-preview/vtunes.png"></a>
-                <div id="work-tags">
-                    <h3>VTUNES</h3>
-                    <ul class="tags">
-                        <li>App Design</li>
-                        <li>UI/UX</li>
-                        <li>Research</li>
-                        <li>Figma</li>
-                    </ul> 
-                </div>
-            </div>
-            <div>
-                <a href="parking-kitty.html"><img src="image/work-preview/parking-kitty.png"></a>
-            </div>
-            <div>
-                <a href="craigslist.html"><img src="image/work-preview/craigslist.png"></a>
-            </div>
-            <div>
-                <a href="cute-avatar-maker.html"><img src="image/work-preview/cute-avatar-maker.png"></a>
-            </div>
         </div>
 
 
@@ -68,6 +47,10 @@
 
 
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $(".work-preview").load("index.html .work-preview #ui-ux");
+    </script>
 </body>
 
 </html>
