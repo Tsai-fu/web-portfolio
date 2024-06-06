@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tsai Fu's Portfolio</title>
+    <link rel="icon" href="image/logo.png">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Glory:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-tag">
+            <li><a class="nav-hover active" href="ui-ux.html">UI/UX</a></li>
+            <li><a class="nav-hover" href="motion.html">MOTION</a></li>
+            <li>
+                <a class="home-button" href="index.html">
+                    <img class="logo-img" src="image/logo.png"><br><h4 id="small-hide">TSAI FU CHUNG</h4></a>
+            </li>
+            <li><a class="nav-hover" href="illustration.html">ILLUS<span id="mobile-hide">TRATION</span></a></li>
+            <li><a class="nav-hover" href="about.html">ABOUT</a></li>
+        </ul>
+    </nav>
+
+    <main class="work-display">
+        <div class="work-preview">
+            <div>
+                <a href="vtunes.html"><img src="image/work-preview/vtunes.png"></a>
+                <div id="work-tags">
+                    <h3>VTUNES</h3>
+                    <ul class="tags">
+                        <li>App Design</li>
+                        <li>UI/UX</li>
+                        <li>Research</li>
+                        <li>Figma</li>
+                    </ul> 
+                </div>
+            </div>
+            <div>
+                <a href="parking-kitty.html"><img src="image/work-preview/parking-kitty.png"></a>
+            </div>
+            <div>
+                <a href="craigslist.html"><img src="image/work-preview/craigslist.png"></a>
+            </div>
+            <div>
+                <a href="cute-avatar-maker.html"><img src="image/work-preview/cute-avatar-maker.png"></a>
+            </div>
+        </div>
+
+
+        <div id="modal01" onclick="this.style.display='none'">
+            <div>
+                <img id="full-size-img" style="width:100%">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <h3 style="color:#cc3628">CONTACT ME</h3>
+            <p><a class="email" href="mailto:tsaifu.c@gmail.com">tsaifu.c<span style="color:#cc3628">@</span>gmail.com</a></p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
