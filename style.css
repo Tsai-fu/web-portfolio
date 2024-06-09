@@ -250,6 +250,14 @@ nav a {
     /* border: 1px solid red; */
 }
 
+p a {
+    color: #000000;
+}
+
+p a:hover {
+    color: #cc3628;
+}
+
 .home-button{
     display: flex;
     flex-direction: column;
@@ -398,6 +406,20 @@ main{
     /* grid-gap: 6px; */
     grid-gap: 24px 0px;
     justify-content: center;
+    /* border: 1px solid rgb(238, 183, 63); */
+}
+
+.video-player{
+    padding-top: 130px;
+}
+
+iframe{
+    /* height:500px; */
+    /* width:800px; */
+    height: auto;
+    width:60vw;
+    aspect-ratio: 1.8/1;
+    /* border: 1px solid rgb(238, 113, 63); */
 }
 
 .line-break{
@@ -418,6 +440,7 @@ main{
 .work-img img, .screen-flow img{
     /* max-height: 500px; */
     max-height: 72vh;
+    /* width: auto; */
     cursor: pointer;
     box-shadow: 1px 1px 5px #d3d3d3;
     /* border: 1px solid rgb(238, 183, 63); */
@@ -426,6 +449,7 @@ main{
 .work-img img:hover{
     box-shadow: 1px 1px 5px #b3b3b3;
 }
+
 
 .mobile-img, .screen-flow{
     width: 100%;
@@ -454,9 +478,16 @@ main{
 
 .project-details img{
     max-height: 72vh;
+    justify-content: center;
     object-fit: scale-down;
     box-shadow: none;
     /* margin-bottom: -76px; */
+}
+
+.vertical img{
+    max-height: 80vh;
+    cursor: pointer;
+    /* border: 1px solid rgb(238, 183, 63); */
 }
 
 /* FULL SIZE IMG //////////////////////////////////////////////////////////////////////*/
@@ -471,7 +502,7 @@ main{
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
     align-content: center;
   }
   
@@ -706,6 +737,13 @@ main{
         padding-top: 110px;
     }
 
+    .video-player{
+        padding-top: 110px;
+    }
+    
+    iframe{
+        width:90vw;
+    }
 
     .text-content, .work-img, .project-details {
         width: 90%;
@@ -767,7 +805,7 @@ main{
         padding-top: 104px;
         grid-template-columns: auto auto;
     }
-
+    
     .banner, .hedgehog .banner{
         max-height: 180px;
         padding-top: 84px;
@@ -776,6 +814,14 @@ main{
     .text-content{
         padding: 16px 0px;
         /* grid-gap: 0px; */
+    }
+
+    .vertical{
+        width: 100%;
+    }
+    
+    .video-player{
+        padding-top: 104px;
     }
     
     .project-details br{
